@@ -1,0 +1,43 @@
+Developer Diagnostic Functionality in GPAPortal.
+
+Project Description:
+Provide EMT Dev with a GUI that allows developers to track their server's health in a unified view in order to facilitate the process of production debugging in real time.
+
+About Project:
+Adding new side menu in the GPAPortal for the functionality.
+Creating the user interface to list the servers and the associated links to their boards in Splunk/Grafana.
+Adding support for executing GPES/GPWS refresh commands from the GUI.
+GPWS Generic Command Listener will be added to hear the message from GPAPortal(front-end) and then process it to GPACommandServer.
+
+Measure of success:
+Clean, user friendly GUI.
+Use of industry standard technologies and practices.
+Establishing reliable and robust connection with servers.
+Project to be carried out along with the vision.
+
+Scope:
+1.This functionality addition in GPAPortal will provide a one stop for viewing server health and taking corrective action.
+2.It will be widely used as it will facilitate the process of production debugging in real time.
+3.The scope is not limited to checking server health but also executing refresh commands.
+
+
+Script to add new columns in Central Dictionary file.
+
+Project Description:
+Provide users a file format and a script which can be used for adding new columns in dictionary.
+
+About project:
+A new script will be written to read new columns info from a standard excel file.
+The file will contain data about the new column that needs to be added to the dictionary.
+The data will be added in dictionary file and a PR will be created for review
+After team's approval, changes will be released to Production.
+
+Criteria for success:
+To make sure that the scripts are written precisely will all the requirements covered.
+Getting on development track timely.
+To carry the project along with vision it has been demanded off.
+
+Scope:
+1.This functionality will reduce our manual efforts by standardizing the approach to add new columns.
+2.It will be widely used as it will automate the process and remove our manual work.
+3.The scope is not limited to just 1 plugin. It can be used for column addition across our Dashboard plugins
